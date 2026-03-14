@@ -1,3 +1,5 @@
+"use client";
+
 import { Navigation } from "@/components/navigation";
 import { RecentSnapshots } from "@/components/dashboard/recent-snapshots";
 import { CreateSnapshotDialog } from "@/components/snapshot/create-snapshot-dialog";

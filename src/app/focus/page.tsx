@@ -1,3 +1,5 @@
+"use client";
+
 import { Navigation } from "@/components/navigation";
 import { FocusTimer } from "@/components/focus/focus-timer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";

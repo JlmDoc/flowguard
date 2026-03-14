@@ -1,3 +1,5 @@
+"use client";
+
 import { Navigation } from "@/components/navigation";
 import { StatsCards } from "@/components/dashboard/stats-cards";
 import { RecentSnapshots } from "@/components/dashboard/recent-snapshots";
