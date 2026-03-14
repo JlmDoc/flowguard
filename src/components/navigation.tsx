@@ -2,9 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Shield, Clock, Camera, BarChart3, Settings } from "lucide-react";
+import { Shield, Clock, Camera, BarChart3, Settings, User } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { UserButton } from "@clerk/nextjs";
 
 const navItems = [
   { href: "/", label: "仪表盘", icon: BarChart3 },
@@ -45,7 +44,9 @@ export function Navigation() {
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
-          <UserButton afterSignOutUrl="/sign-in" />
+          <div className="h-8 w-8 rounded-full bg-muted flex items-center justify-center">
+            <User className="h-4 w-4 text-muted-foreground" />
+          </div>
         </div>
       </div>
     </header>
